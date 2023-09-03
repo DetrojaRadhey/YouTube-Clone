@@ -1,0 +1,217 @@
+body{
+    background-color: black;
+    margin: 0;
+    color: white;
+    overflow: hidden;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif Gujarati', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+}
+.main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.sidebar{
+    width: 230px;
+    height: 100vh;
+    overflow:hidden;
+}
+.sidebar:hover{
+    overflow-y: scroll;
+}
+.sidebar::-webkit-scrollbar {
+    width: 0.5em; 
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+}
+.logos{
+    height: 90px;
+}
+.logos span{
+    font-size: 2.2rem;
+    font-weight: 200;
+    position: relative;
+    bottom: 0.7rem;
+    left: 0.7rem;
+}
+.logos img{
+    width: 8.5rem;
+    position: relative;
+    left: 1.5rem;
+    top: 0.7rem;
+}
+.mainoptions{
+    height: 150px;
+}
+.home{
+    height: 33.33%;
+}
+.home h3{
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    left: 2rem;
+    bottom: 0.3rem;
+}
+.home span{
+    position: relative;
+    left: 0.7rem;
+}
+.history{
+    height: 280px;
+    margin-top: 10px;
+}
+.history-elements span{
+    position: relative;
+    left: 0.7rem;
+}
+.history-elements h3{
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    left: 2rem;
+    bottom: 0.3rem;
+}
+.explore{
+    height: 380px;
+    margin-top: 10px;
+}
+.items span{
+    position: relative;
+    left: 0.7rem;
+}
+.items h3{
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    left: 2rem;
+    bottom: 0.3rem;
+}
+.settings{
+    height: 170px;
+    margin-top: 0.7rem;
+}
+.option span{
+    position: relative;
+    left: 0.7rem;
+}
+.option h3{
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    left: 2rem;
+    bottom: 0.3rem;
+}
+.history-elements:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.home:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.items:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.option:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.video{
+    height: 100vh;
+    width: 100vw;
+    display: inline-block;
+}
+.searchbar{
+    height: 3rem;
+    margin-top: 1.5rem;
+    display: flex;
+}
+.search{
+    height: 2rem;
+    width: 35rem;
+    margin-left: 25%;
+    border-radius: 50px;
+    background-color: gray;
+    display: inline-block;
+}
+#id{
+    background-color: black;
+    width: 28rem;
+    height: 1.7rem;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    margin-left: 2rem;
+    position: relative;
+    bottom: 0.195rem;
+    border: 0px;
+
+}
+.search span{
+    position: relative;
+    left: 2rem;
+    top:0.2rem;
+}
+.user{
+    margin-left: 1.5rem;
+    font-size: 1.8rem;
+}
+.useritems{
+    margin-left: 13rem;
+}
+.releted{
+    
+    height: 2rem;
+    display: flex;
+}
+.topics{
+    width: 5rem;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.395);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.topics h4{
+    position: relative;
+    bottom: 1rem;
+}
+.allvideo{
+    height: 100vh;
+    margin-top: 20px;
+    overflow: auto;
+}
+.rows{
+    height: 20rem;
+    margin-top: 1rem;
+    display: flex;
+}
+.good{
+    width: 30%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+.allvideo::-webkit-scrollbar {
+    width: 0.5em; 
+}
+.allvideo::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+}
